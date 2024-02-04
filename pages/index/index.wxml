@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<scroll-view class="scrollarea" scroll-y type="list">
+    <view class="container">
+        <!-- 点击事件 -->
+        <button bind:tap="changeMan"> Click me! </button>
+        <!-- 数据渲染 -->
+        {{ man.sex }}
+        {{ show }}
+        <!-- if -->
+        <view wx:if="{{show}}">ceshji</view>
+        <!-- 列表渲染 -->
+        <view wx:for="{{list}}" wx:key="*this">{{item}}</view>
+    </view>
+</scroll-view>

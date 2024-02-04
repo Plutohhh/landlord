@@ -1,0 +1,30 @@
+{
+    "pages": [
+        "pages/home/index",
+        "pages/index/index",
+        "pages/index2/index",
+        "pages/detail-house/index"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "首页",
+        "homeButton": true,
+        "backgroundTextStyle": "dark"
+    },
+    "tabBar": {
+        "list": [{
+                "pagePath": "pages/home/index",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "text": "测试"
+            },
+            {
+                "pagePath": "pages/index2/index",
+                "text": "日志"
+            }
+        ]
+    }
+}

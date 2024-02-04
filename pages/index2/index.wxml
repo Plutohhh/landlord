@@ -1,0 +1,6 @@
+<view class="container">
+    <!-- 循环生成框框 -->
+    <block wx:for="{{boxArray}}" wx:for-item="item" wx:key="index">
+        <view class="box">{{index + 1}}</view>
+    </block>
+</view>

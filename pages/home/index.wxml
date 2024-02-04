@@ -1,0 +1,15 @@
+<picker mode="date" value="{{date}}" fields="month" bindchange="dateChange">
+    <view class="picker">
+        {{date}}情况
+    </view>
+</picker>
+<view class="home-container">
+    <!-- 列表渲染 -->
+    <view class="house" wx:for="{{house}}" wx:key="index" bind:tap="clickHouse" data-item="{{item}}" style="{{item.isPayed?'':'background:#E7ADAC'}}">
+        <p>{{item.number}}</p>
+        <p>耗电量：{{item.electricity}}</p>
+        <p>耗水量：{{item.water}}</p>
+        <p>房租：{{item.rent}}</p>
+        <p>是否已交：{{item.isPayed?'是':'否'}}</p>
+    </view>
+</view>

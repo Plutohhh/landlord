@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: solid 1px red;
+}
+
+.box {
+    box-sizing: border-box;
+    border: 1px solid #000;
+    margin: 5px;
+    text-align: center;
+    line-height: 100px;
+    width: 35%;
+    /* 设置宽度为页面宽度的一半 */
+}
